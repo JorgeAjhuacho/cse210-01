@@ -5,7 +5,7 @@ Author: Jorge Ajhuacho
 
 def main():
     print("1|2|3\n-+-+-\n4|5|6\n-+-+-\n7|8|9")
-    first_player = ""
+    first_player = "x"
     board_cell = cells_of_board()
     while not (winner(board_cell)):
         print_board(board_cell)
